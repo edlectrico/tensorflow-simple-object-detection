@@ -35,3 +35,8 @@ pip install moviepy
 ```
 sudo apt-get install ffmpeg
 ```
+
+#### Run
+```
+python tf_simple_object_detection.py
+```
