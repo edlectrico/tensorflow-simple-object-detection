@@ -7,8 +7,8 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 # Necessary to explicitly add the models/ folders
-sys.path.append('/home/edlectrico/anaconda3/lib/python3.6/site-packages/tensorflow/models')
-sys.path.append('/home/edlectrico/anaconda3/lib/python3.6/site-packages/tensorflow/models/slim')
+sys.path.append('<PATH_TO_TENSORFLOW>/models')
+sys.path.append('<PATH_TO_TENSORFLOW>/models/slim')
 
 def load_image_into_numpy_array(image):
     (im_width, im_height) = image.size
