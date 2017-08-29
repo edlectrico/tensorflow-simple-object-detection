@@ -17,10 +17,10 @@ To make object_detection libs available, do this in Python:
 import sys
 sys.path.append('<PATH_TO_TENSORFLOW>/models')
 sys.path.append('<PATH_TO_TENSORFLOW>/models/slim')
-from object_detection.utils import label_map_util # This now should work
+from object_detection.utils import label_map_util 
 from object_detection.utils import visualization_utils as vis_util
 ```
-If you installed Python through Anaconda, the `<PATH_TO_TENSORFLOW>` will look like `/home/user/anaconda3/lib/python3.6/site-packages/tensorflow`.
+If you installed Python through Anaconda, the `<PATH_TO_TENSORFLOW>` will look like `/home/<YOUR_USER>/anaconda3/lib/python3.6/site-packages/tensorflow`.
 
 #### Install dependencies
 Make sure that you have downloaded `moviepy` and `ffmpeg` for image processing.
