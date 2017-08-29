@@ -4,7 +4,7 @@ Originally forked from [here](https://github.com/diegocavalca/machine-learning).
 
 ## Instructions:
 #### Install Python
-In my case, I have installed Python 3.6.2. via Anaconda. If you want to do that (which I recommend), download the corresponding installer from Anaconda's [website](https://www.anaconda.com/download/).
+In my case, I have installed Python 3.6.2 via Anaconda. If you want to do that (which I recommend), download the corresponding installer from Anaconda's [website](https://www.anaconda.com/download/).
 
 #### Download Tensorflow (via pip)
 Select your OS and install Tensorflow following the [installation guide](https://www.tensorflow.org/install/).
@@ -23,7 +23,7 @@ from object_detection.utils import visualization_utils as vis_util
 If you installed Python through Anaconda, the `<PATH_TO_TENSORFLOW>` will look like `/home/user/anaconda3/lib/python3.6/site-packages/tensorflow`.
 
 #### Install dependencies
-Make sure that you have downloaded moviepy and ffmpeg for image processing.
+Make sure that you have downloaded `moviepy` and `ffmpeg` for image processing.
 ```
 pip install moviepy
 ```
