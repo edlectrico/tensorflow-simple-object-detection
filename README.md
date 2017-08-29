@@ -10,14 +10,14 @@ In my case, I have installed Python 3.6.2 via Anaconda. If you want to do that (
 Select your OS and install Tensorflow following the [installation guide](https://www.tensorflow.org/install/). I have installed the Ubuntu TensorFlow with CPU support via `pip install`.
 
 #### Download object_detection and put it in the tensorflow installation dir
-The object_detection module from Tensorflow is not installed by default. You should download it from the Tensorflow Github repo and place it in the Tensorflow home directory. Clone or download [this repo](https://github.com/tensorflow/models), extract the object_detection folder, and place ir in `<PATH_TO_YOUR_TF>/models`.
+The `object_detection` module from Tensorflow is not installed by default. You should download it from the Tensorflow Github repo and place it in the Tensorflow home directory. Clone or download [this repo](https://github.com/tensorflow/models), extract the `object_detection` folder, and place ir in `<PATH_TO_YOUR_TF>/models`.
 
 If you're wondering where your Tensorflow installation is, try this (if you've installed it via `pip`):
 ```
 pip show tensorflow
 ```
 
-To make object_detection libs available, do this in Python:
+To make `object_detection` libs available, do this in Python:
 ```python
 import sys
 sys.path.append('<PATH_TO_TENSORFLOW>/models')
